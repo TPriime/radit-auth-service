@@ -8,7 +8,7 @@
     "start": "NODE_ENV=prod node index.js",
     "format": "prettier \"./**/*.{js,html,json}\" --write",
     "lint": "eslint \"./**/*.js\"",
-    "test": "mocha tests/v1/test --exit"
+    "test": "mocha tests/ --exit"
   },
   "repository": {
     "type": "git",
